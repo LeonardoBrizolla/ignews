@@ -1,0 +1,20 @@
+import { Html, Head, Main, NextScript } from "next/document";
+
+export default function Document() {
+  return (
+    <Html lang="pt-BR">
+      <Head>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap')
+        </style>
+
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
+}
